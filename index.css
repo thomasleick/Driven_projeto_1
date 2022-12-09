@@ -1,0 +1,65 @@
+body {
+  font-family: "Encode Sans", sans-serif;
+}
+
+.logo {
+  width: 171px;
+}
+
+.head {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  top: 80px;
+  height: 1px;
+  color: #f5f6f7;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.g1 {
+  color: #c3170c;
+}
+.globo {
+  color: #1e4b9b;
+}
+.valor {
+  color: #006766;
+}
+.ge {
+  color: #07aa47;
+}
+.cartola {
+  color: #e3662b;
+}
+.globoplay {
+  color: #fb0735;
+}
+.dropz {
+  color: #ff75bb;
+}
+.gshow {
+  color: #ec7d00;
+}
+.quem {
+  color: #323333;
+}
+.receitas {
+  color: #a81d83;
+}
+
+h1 {
+  color: #c4160c;
+  font-size: 52px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #303134;
+  font-size: 18px;
+}
