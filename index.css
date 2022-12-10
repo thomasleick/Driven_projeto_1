@@ -12,9 +12,18 @@ body {
   align-items: center;
   justify-content: center;
 }
-.menu {
-  top: 80px;
+
+.linha {
   height: 1px;
+  width: 1%;
+  background-color: #ebedef;
+}
+.menus {
+  height: 45px;
+  border-bottom: 1px solid #f5f6f7;
+  border-top: 1px solid #f5f6f7;
+}
+.menu {
   color: #f5f6f7;
   width: 100%;
   display: flex;
@@ -54,12 +63,76 @@ body {
 }
 
 h1 {
-  color: #c4160c;
   font-size: 52px;
   font-weight: bold;
 }
 
 h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.vermelho {
+  color: #c4160c;
+}
+.preto {
   color: #303134;
-  font-size: 18px;
+}
+.verde {
+  color: #24b35e;
+}
+.laranja {
+  color: #ec8006;
+}
+
+.horizontal {
+  border-top: 1px solid #ebedef;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.vertical {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgnot1 {
+  border-radius: 12px;
+  width: 193px;
+}
+.imgnot2 {
+  border-radius: 12px;
+  width: 240px;
+}
+
+.esquerda {
+  width: 50%;
+  border-right: 1px solid #ebedef;
+  padding-right: 2%;
+}
+
+.direita {
+  width: 50%;
+  padding-left: 2%;
+}
+.esquerdinha {
+  width: 45%;
+  border-right: 1px solid #ebedef;
+  padding-right: 2%;
+}
+
+.direitinha {
+  width: 45%;
+  padding-left: 2%;
 }
