@@ -132,17 +132,31 @@ p {
   align-items: center;
   justify-content: space-around;
 }
-.esquerdinha {
+.containerzinho {
   width: 240px;
+}
+
+.linhaV {
+  width: 0px;
+  height: 700px;
+  border-right: 1px solid #ebedef;
+  background-color: black;
 }
 
 .linhaH {
   width: 100%;
+  height: 0px;
   border-bottom: 2px solid red;
 }
-
-.direitinha {
-  width: 240px;
+.linhaL {
+  width: 0px;
+  height: 54px;
+  border-left: 2px solid red;
+}
+.linhaR {
+  width: 0px;
+  height: 54px;
+  border-right: 2px solid red;
 }
 
 .container {
@@ -151,6 +165,4 @@ p {
   justify-content: center;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: pink;
-  height: 100px;
 }
