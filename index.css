@@ -2,6 +2,14 @@ body {
   font-family: "Encode Sans", sans-serif;
 }
 
+.noticias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .logo {
   width: 171px;
 }
@@ -13,11 +21,6 @@ body {
   justify-content: center;
 }
 
-.linha {
-  height: 1px;
-  width: 1%;
-  background-color: #ebedef;
-}
 .menus {
   height: 45px;
   border-bottom: 1px solid #f5f6f7;
@@ -125,14 +128,29 @@ p {
 .direita {
   width: 50%;
   padding-left: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .esquerdinha {
-  width: 45%;
-  border-right: 1px solid #ebedef;
-  padding-right: 2%;
+  width: 240px;
+}
+
+.linhaH {
+  width: 100%;
+  border-bottom: 2px solid red;
 }
 
 .direitinha {
-  width: 45%;
-  padding-left: 2%;
+  width: 240px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: pink;
+  height: 100px;
 }
